@@ -1,0 +1,492 @@
+[
+    {
+        "training_iteration": 12,
+        "timesteps_total": 6144,
+        "time_total_s": 24.75350522994995,
+        "info": {
+            "defender_policy": {
+                "grad_gnorm": 0.8977760076522827,
+                "cur_kl_coeff": 0.018750000000000003,
+                "cur_lr": 0.0001,
+                "total_loss": 9.454045057296753,
+                "policy_loss": -0.041421306505799296,
+                "vf_loss": 9.497239184379577,
+                "vf_explained_var": -0.0013160675764083863,
+                "kl": 0.007560795932386099,
+                "entropy": 1.914661529660225,
+                "entropy_coeff": 0.001
+            },
+            "attacker_policy": {
+                "grad_gnorm": 0.7281357049942017,
+                "cur_kl_coeff": 0.30000000000000004,
+                "cur_lr": 0.0001,
+                "total_loss": 9.810172057151794,
+                "policy_loss": -0.025123209320008756,
+                "vf_loss": 9.835649514198304,
+                "vf_explained_var": 0.006368595361709595,
+                "kl": 0.00525773304834729,
+                "entropy": 1.9317293971776963,
+                "entropy_coeff": 0.001
+            }
+        },
+        "env_runners": {
+            "episode_reward_max": -134.0,
+            "episode_reward_min": -554.9129821833772,
+            "episode_reward_mean": -349.70482196044503,
+            "episode_len_mean": 50.0,
+            "policy_reward_min": {
+                "defender_policy": -475.0068142240949,
+                "attacker_policy": -680.6108453615249
+            },
+            "policy_reward_max": {
+                "defender_policy": 172.44970621982094,
+                "attacker_policy": 240.65527267343845
+            },
+            "policy_reward_mean": {
+                "defender_policy": -154.89925082051985,
+                "attacker_policy": -194.80557113992515
+            }
+        }
+    },
+    {
+        "training_iteration": 13,
+        "timesteps_total": 6656,
+        "time_total_s": 26.802666187286377,
+        "info": {
+            "defender_policy": {
+                "grad_gnorm": 0.9442933201789856,
+                "cur_kl_coeff": 0.018750000000000003,
+                "cur_lr": 0.0001,
+                "total_loss": 9.625992894172668,
+                "policy_loss": -0.032003723084926605,
+                "vf_loss": 9.659660720825196,
+                "vf_explained_var": -0.004189427196979523,
+                "kl": 0.010387826259946298,
+                "entropy": 1.8589156597852707,
+                "entropy_coeff": 0.001
+            },
+            "attacker_policy": {
+                "grad_gnorm": 0.8176690936088562,
+                "cur_kl_coeff": 0.30000000000000004,
+                "cur_lr": 0.0001,
+                "total_loss": 9.780000638961791,
+                "policy_loss": 0.028754795994609596,
+                "vf_loss": 9.750728535652161,
+                "vf_explained_var": 0.008290128409862518,
+                "kl": 0.007980774348338738,
+                "entropy": 1.8769004672765732,
+                "entropy_coeff": 0.001
+            }
+        },
+        "env_runners": {
+            "episode_reward_max": -134.0,
+            "episode_reward_min": -554.9129821833772,
+            "episode_reward_mean": -346.99837393542236,
+            "episode_len_mean": 50.0,
+            "policy_reward_min": {
+                "defender_policy": -475.0068142240949,
+                "attacker_policy": -680.6108453615249
+            },
+            "policy_reward_max": {
+                "defender_policy": 151.56654429353438,
+                "attacker_policy": 240.65527267343845
+            },
+            "policy_reward_mean": {
+                "defender_policy": -173.8460994365437,
+                "attacker_policy": -173.15227449887868
+            }
+        }
+    },
+    {
+        "training_iteration": 14,
+        "timesteps_total": 7168,
+        "time_total_s": 28.8522367477417,
+        "info": {
+            "defender_policy": {
+                "grad_gnorm": 0.9456769824028015,
+                "cur_kl_coeff": 0.018750000000000003,
+                "cur_lr": 0.0001,
+                "total_loss": 9.725282025337219,
+                "policy_loss": 0.07682754062116146,
+                "vf_loss": 9.650111079216003,
+                "vf_explained_var": 0.013659244775772095,
+                "kl": 0.012815067964502625,
+                "entropy": 1.896608653664589,
+                "entropy_coeff": 0.001
+            },
+            "attacker_policy": {
+                "grad_gnorm": 1.0869150161743164,
+                "cur_kl_coeff": 0.30000000000000004,
+                "cur_lr": 0.0001,
+                "total_loss": 9.658724689483643,
+                "policy_loss": -0.1294207693077624,
+                "vf_loss": 9.78818097114563,
+                "vf_explained_var": 0.003003498911857605,
+                "kl": 0.006097984198186168,
+                "entropy": 1.8648590743541718,
+                "entropy_coeff": 0.001
+            }
+        },
+        "env_runners": {
+            "episode_reward_max": -101.0,
+            "episode_reward_min": -554.9129821833772,
+            "episode_reward_mean": -344.928941376581,
+            "episode_len_mean": 50.0,
+            "policy_reward_min": {
+                "defender_policy": -486.0,
+                "attacker_policy": -680.6108453615249
+            },
+            "policy_reward_max": {
+                "defender_policy": 151.56654429353438,
+                "attacker_policy": 235.0
+            },
+            "policy_reward_mean": {
+                "defender_policy": -180.2388311608608,
+                "attacker_policy": -164.6901102157202
+            }
+        }
+    },
+    {
+        "training_iteration": 15,
+        "timesteps_total": 7680,
+        "time_total_s": 30.898186206817627,
+        "info": {
+            "defender_policy": {
+                "grad_gnorm": 0.8725031018257141,
+                "cur_kl_coeff": 0.018750000000000003,
+                "cur_lr": 0.0001,
+                "total_loss": 9.847438192367553,
+                "policy_loss": 0.06502433270215988,
+                "vf_loss": 9.784066963195801,
+                "vf_explained_var": 0.005602902173995972,
+                "kl": 0.00785821295908573,
+                "entropy": 1.800440713763237,
+                "entropy_coeff": 0.001
+            },
+            "attacker_policy": {
+                "grad_gnorm": 1.0323894023895264,
+                "cur_kl_coeff": 0.30000000000000004,
+                "cur_lr": 0.0001,
+                "total_loss": 9.515805912017822,
+                "policy_loss": -0.12530609276145696,
+                "vf_loss": 9.64001750946045,
+                "vf_explained_var": -0.0023283377289772035,
+                "kl": 0.00965730652125103,
+                "entropy": 1.8026533335447312,
+                "entropy_coeff": 0.001
+            }
+        },
+        "env_runners": {
+            "episode_reward_max": -101.0,
+            "episode_reward_min": -554.9129821833772,
+            "episode_reward_mean": -349.0797168392462,
+            "episode_len_mean": 50.0,
+            "policy_reward_min": {
+                "defender_policy": -486.0,
+                "attacker_policy": -680.6108453615249
+            },
+            "policy_reward_max": {
+                "defender_policy": 151.56654429353438,
+                "attacker_policy": 235.0
+            },
+            "policy_reward_mean": {
+                "defender_policy": -178.86726364739346,
+                "attacker_policy": -170.21245319185272
+            }
+        }
+    },
+    {
+        "training_iteration": 16,
+        "timesteps_total": 8192,
+        "time_total_s": 32.93241095542908,
+        "info": {
+            "defender_policy": {
+                "grad_gnorm": 1.2509033679962158,
+                "cur_kl_coeff": 0.018750000000000003,
+                "cur_lr": 0.0001,
+                "total_loss": 9.532315540313721,
+                "policy_loss": -0.0040848471224308016,
+                "vf_loss": 9.537981486320495,
+                "vf_explained_var": -0.0034835785627365112,
+                "kl": 0.011473056024697425,
+                "entropy": 1.7962646394968034,
+                "entropy_coeff": 0.001
+            },
+            "attacker_policy": {
+                "grad_gnorm": 0.7571811676025391,
+                "cur_kl_coeff": 0.30000000000000004,
+                "cur_lr": 0.0001,
+                "total_loss": 9.717679834365844,
+                "policy_loss": -0.07702854499220849,
+                "vf_loss": 9.793038892745972,
+                "vf_explained_var": 0.008750279247760773,
+                "kl": 0.01153975144843571,
+                "entropy": 1.7923570573329926,
+                "entropy_coeff": 0.001
+            }
+        },
+        "env_runners": {
+            "episode_reward_max": -101.0,
+            "episode_reward_min": -554.9129821833772,
+            "episode_reward_mean": -341.9331084033427,
+            "episode_len_mean": 50.0,
+            "policy_reward_min": {
+                "defender_policy": -486.0,
+                "attacker_policy": -663.4958286462767
+            },
+            "policy_reward_max": {
+                "defender_policy": 108.58284646289967,
+                "attacker_policy": 235.0
+            },
+            "policy_reward_mean": {
+                "defender_policy": -187.23321866058956,
+                "attacker_policy": -154.69988974275313
+            }
+        }
+    },
+    {
+        "training_iteration": 17,
+        "timesteps_total": 8704,
+        "time_total_s": 34.968101024627686,
+        "info": {
+            "defender_policy": {
+                "grad_gnorm": 1.4945577383041382,
+                "cur_kl_coeff": 0.018750000000000003,
+                "cur_lr": 0.0001,
+                "total_loss": 9.392538189888,
+                "policy_loss": -0.022595154121518135,
+                "vf_loss": 9.41659722328186,
+                "vf_explained_var": 0.016095519065856934,
+                "kl": 0.016033269651506997,
+                "entropy": 1.7646923631429672,
+                "entropy_coeff": 0.001
+            },
+            "attacker_policy": {
+                "grad_gnorm": 1.163623571395874,
+                "cur_kl_coeff": 0.30000000000000004,
+                "cur_lr": 0.0001,
+                "total_loss": 9.551053524017334,
+                "policy_loss": 0.021237408369779588,
+                "vf_loss": 9.529604029655456,
+                "vf_explained_var": 0.007947519421577454,
+                "kl": 0.006528574976330592,
+                "entropy": 1.746633568406105,
+                "entropy_coeff": 0.001
+            }
+        },
+        "env_runners": {
+            "episode_reward_max": -101.0,
+            "episode_reward_min": -554.9129821833772,
+            "episode_reward_mean": -337.93188614160886,
+            "episode_len_mean": 50.0,
+            "policy_reward_min": {
+                "defender_policy": -486.0,
+                "attacker_policy": -663.4958286462767
+            },
+            "policy_reward_max": {
+                "defender_policy": 108.58284646289967,
+                "attacker_policy": 235.0
+            },
+            "policy_reward_mean": {
+                "defender_policy": -188.1255326591593,
+                "attacker_policy": -149.80635348244957
+            }
+        }
+    },
+    {
+        "training_iteration": 18,
+        "timesteps_total": 9216,
+        "time_total_s": 37.02564525604248,
+        "info": {
+            "defender_policy": {
+                "grad_gnorm": 1.5829946994781494,
+                "cur_kl_coeff": 0.018750000000000003,
+                "cur_lr": 0.0001,
+                "total_loss": 9.064142203330993,
+                "policy_loss": -0.02560132909566164,
+                "vf_loss": 9.091189694404601,
+                "vf_explained_var": -0.03265015929937363,
+                "kl": 0.016823984831391758,
+                "entropy": 1.7614852905273437,
+                "entropy_coeff": 0.001
+            },
+            "attacker_policy": {
+                "grad_gnorm": 0.8396533131599426,
+                "cur_kl_coeff": 0.30000000000000004,
+                "cur_lr": 0.0001,
+                "total_loss": 9.773001265525817,
+                "policy_loss": -0.026419351994991302,
+                "vf_loss": 9.79929060935974,
+                "vf_explained_var": 0.004365894198417664,
+                "kl": 0.006167648364814449,
+                "entropy": 1.7202691793441773,
+                "entropy_coeff": 0.001
+            }
+        },
+        "env_runners": {
+            "episode_reward_max": -90.0,
+            "episode_reward_min": -554.9129821833772,
+            "episode_reward_mean": -334.50202931125597,
+            "episode_len_mean": 50.0,
+            "policy_reward_min": {
+                "defender_policy": -486.0,
+                "attacker_policy": -663.4958286462767
+            },
+            "policy_reward_max": {
+                "defender_policy": 108.58284646289967,
+                "attacker_policy": 235.0
+            },
+            "policy_reward_mean": {
+                "defender_policy": -181.0325798415863,
+                "attacker_policy": -153.46944946966966
+            }
+        }
+    },
+    {
+        "training_iteration": 19,
+        "timesteps_total": 9728,
+        "time_total_s": 39.075268268585205,
+        "info": {
+            "defender_policy": {
+                "grad_gnorm": 0.9650720357894897,
+                "cur_kl_coeff": 0.018750000000000003,
+                "cur_lr": 0.0001,
+                "total_loss": 9.630277514457703,
+                "policy_loss": -0.049647999368607997,
+                "vf_loss": 9.681428694725037,
+                "vf_explained_var": 0.01417996883392334,
+                "kl": 0.011355893365168557,
+                "entropy": 1.716104230284691,
+                "entropy_coeff": 0.001
+            },
+            "attacker_policy": {
+                "grad_gnorm": 1.112426996231079,
+                "cur_kl_coeff": 0.30000000000000004,
+                "cur_lr": 0.0001,
+                "total_loss": 9.38088641166687,
+                "policy_loss": 0.0423374196048826,
+                "vf_loss": 9.337560176849365,
+                "vf_explained_var": 0.011701847612857818,
+                "kl": 0.008735648181103306,
+                "entropy": 1.6317420959472657,
+                "entropy_coeff": 0.001
+            }
+        },
+        "env_runners": {
+            "episode_reward_max": -90.0,
+            "episode_reward_min": -538.0,
+            "episode_reward_mean": -327.37021674645285,
+            "episode_len_mean": 50.0,
+            "policy_reward_min": {
+                "defender_policy": -486.0,
+                "attacker_policy": -585.0
+            },
+            "policy_reward_max": {
+                "defender_policy": 47.0,
+                "attacker_policy": 235.0
+            },
+            "policy_reward_mean": {
+                "defender_policy": -184.74630485179165,
+                "attacker_policy": -142.62391189466118
+            }
+        }
+    },
+    {
+        "training_iteration": 20,
+        "timesteps_total": 10240,
+        "time_total_s": 41.119242429733276,
+        "info": {
+            "defender_policy": {
+                "grad_gnorm": 1.095800757408142,
+                "cur_kl_coeff": 0.018750000000000003,
+                "cur_lr": 0.0001,
+                "total_loss": 9.602286100387573,
+                "policy_loss": -0.009802958369255066,
+                "vf_loss": 9.613465213775635,
+                "vf_explained_var": 0.023254181444644927,
+                "kl": 0.016755836598732345,
+                "entropy": 1.6905083060264587,
+                "entropy_coeff": 0.001
+            },
+            "attacker_policy": {
+                "grad_gnorm": 0.9526302218437195,
+                "cur_kl_coeff": 0.30000000000000004,
+                "cur_lr": 0.0001,
+                "total_loss": 9.404923272132873,
+                "policy_loss": -0.021505717560648917,
+                "vf_loss": 9.425329756736755,
+                "vf_explained_var": -0.006131909787654877,
+                "kl": 0.00886910539264497,
+                "entropy": 1.5615488588809967,
+                "entropy_coeff": 0.001
+            }
+        },
+        "env_runners": {
+            "episode_reward_max": -90.0,
+            "episode_reward_min": -538.0,
+            "episode_reward_mean": -327.95,
+            "episode_len_mean": 50.0,
+            "policy_reward_min": {
+                "defender_policy": -486.0,
+                "attacker_policy": -585.0
+            },
+            "policy_reward_max": {
+                "defender_policy": 47.0,
+                "attacker_policy": 235.0
+            },
+            "policy_reward_mean": {
+                "defender_policy": -180.67,
+                "attacker_policy": -147.28
+            }
+        }
+    },
+    {
+        "training_iteration": 21,
+        "timesteps_total": 10752,
+        "time_total_s": 43.17114496231079,
+        "info": {
+            "defender_policy": {
+                "grad_gnorm": 1.122102975845337,
+                "cur_kl_coeff": 0.018750000000000003,
+                "cur_lr": 0.0001,
+                "total_loss": 9.63106174468994,
+                "policy_loss": -0.03456173948943615,
+                "vf_loss": 9.666957688331603,
+                "vf_explained_var": 0.05812396705150604,
+                "kl": 0.01650313892317168,
+                "entropy": 1.643843936920166,
+                "entropy_coeff": 0.001
+            },
+            "attacker_policy": {
+                "grad_gnorm": 0.7805855870246887,
+                "cur_kl_coeff": 0.30000000000000004,
+                "cur_lr": 0.0001,
+                "total_loss": 9.714416408538819,
+                "policy_loss": 0.02336313407868147,
+                "vf_loss": 9.689595222473145,
+                "vf_explained_var": -0.03400651514530182,
+                "kl": 0.009990135370208009,
+                "entropy": 1.5389365941286086,
+                "entropy_coeff": 0.001
+            }
+        },
+        "env_runners": {
+            "episode_reward_max": -90.0,
+            "episode_reward_min": -538.0,
+            "episode_reward_mean": -326.66,
+            "episode_len_mean": 50.0,
+            "policy_reward_min": {
+                "defender_policy": -486.0,
+                "attacker_policy": -585.0
+            },
+            "policy_reward_max": {
+                "defender_policy": 47.0,
+                "attacker_policy": 235.0
+            },
+            "policy_reward_mean": {
+                "defender_policy": -172.94,
+                "attacker_policy": -153.72
+            }
+        }
+    }
+]
